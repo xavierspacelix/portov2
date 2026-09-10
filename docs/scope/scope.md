@@ -47,7 +47,7 @@ The visual language: color tokens (light and dark), type, spacing, and base comp
   - [x] New primitives and depth: Card, Eyebrow, Divider, Badge, glow, showcase page (AC-11, AC-12)
   - [x] Verification pass and `design.md` rewrite (AC-8, AC-9, AC-14)
   - [x] Removal sweep and green gate (AC-13)
-- [ ] Verify it: `/check verify design system & UI foundation`
+- [x] Verify it: `/check verify design system & UI foundation`
 
 ## First impression
 
