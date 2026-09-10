@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "next-themes": {
+      "source": "pharbuz/ai-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/next-themes/SKILL.md",
+      "computedHash": "3e035072868abd98b3c85c70ec7b65ac08a78033cdf1b54facd8b500c49da895"
+    },
     "nextjs-app-router-patterns": {
       "source": "wshobson/agents",
       "sourceType": "github",

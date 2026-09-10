@@ -13,7 +13,7 @@ _These are recommendations to keep your build orderly, not requirements. Skip an
 | --- | ----------------------------- | ---------------- | ---------------- |
 | A   | Next.js scaffold              | Foundation       | existing         |
 | 1   | Coding standards & tooling    | Foundation       | done             |
-| 2   | Design system & UI foundation | Foundation       | needs a decision |
+| 2   | Design system & UI foundation | Foundation       | in-progress      |
 | 3   | Home & hero                   | First impression | planned          |
 | 4   | Projects & case studies       | Proof            | needs a decision |
 | 5   | About & experience            | Trust            | planned          |
@@ -35,12 +35,18 @@ Capture conventions, then install lint and format checks so every later feature 
 - [x] Capture conventions + tooling: `/audit`
 - [x] Install the tooling: `/develop tooling`
 
-### 2. Design system & UI foundation · needs a decision
+### 2. Design system & UI foundation · in-progress
 
 The visual language: color tokens (light and dark), type, spacing, and base components, so every section feels cohesive and premium. This sets the bar for the whole site.
 **Done when:** `design.md` covers color, type, spacing, and components; base components handle focus and keyboard; both palettes are defined.
 
-- [ ] Design it (spec): `/architect design system & UI foundation`
+- [x] Design it (spec): `/architect design system & UI foundation` → [0001](../specs/0001-design-system-ui-foundation/index.md)
+- [ ] Build it: `/develop design system & UI foundation`
+  - [ ] Tokens, theme provider, and `cn()` utility (AC-2, AC-10)
+  - [ ] Layout and typography primitives (AC-4, AC-5)
+  - [ ] Button, Link, and ThemeToggle (AC-3, AC-6, AC-7)
+  - [ ] Contrast and reduced motion pass, plus `design.md` (AC-1, AC-8, AC-9)
+- [ ] Verify it: `/check verify design system & UI foundation`
 
 ## First impression
 
