@@ -1,0 +1,9 @@
+.next
+out
+build
+dist
+coverage
+node_modules
+.agents
+bun.lock
+next-env.d.ts
