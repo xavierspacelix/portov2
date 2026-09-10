@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Fraunces, Geist, Geist_Mono } from "next/font/google";
 
 import { Providers } from "./providers";
 import "./globals.css";
@@ -14,6 +14,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
+  subsets: ["latin"],
+  display: "swap",
+  axes: ["opsz"],
+});
+
 export const metadata: Metadata = {
   title: "Juan Akbar Indrian",
   description: "Full stack developer building fast, accessible web products.",
@@ -24,7 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} h-full`}
+      className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} h-full`}
     >
       <body className="flex min-h-full flex-col">
         <Providers>{children}</Providers>

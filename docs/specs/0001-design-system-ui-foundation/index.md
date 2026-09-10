@@ -1,7 +1,7 @@
 # 0001. Design system and UI foundation
 
 **Date**: 2026-09-10
-**Status**: In Progress
+**Status**: Superseded by [0002](../0002-warm-editorial-design-system/index.md)
 
 ## Summary
 

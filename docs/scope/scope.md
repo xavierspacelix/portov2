@@ -40,12 +40,13 @@ Capture conventions, then install lint and format checks so every later feature 
 The visual language: color tokens (light and dark), type, spacing, and base components, so every section feels cohesive and premium. This sets the bar for the whole site. code in `components/ui/`, `lib/utils.ts`, `app/globals.css`, `app/providers.tsx`, `design.md`
 **Done when:** `design.md` covers color, type, spacing, and components; base components handle focus and keyboard; both palettes are defined.
 
-- [x] Design it (spec): `/architect design system & UI foundation` → [0001](../specs/0001-design-system-ui-foundation/index.md)
-- [x] Build it: `/develop design system & UI foundation`
-  - [x] Tokens, theme provider, and `cn()` utility (AC-2, AC-10)
-  - [x] Layout and typography primitives (AC-4, AC-5)
-  - [x] Button, Link, and ThemeToggle (AC-3, AC-6, AC-7)
-  - [x] Contrast and reduced motion pass, plus `design.md` (AC-1, AC-8, AC-9)
+- [x] Design it (spec): `/architect design system & UI foundation` → [0002](../specs/0002-warm-editorial-design-system/index.md) (supersedes [0001](../specs/0001-design-system-ui-foundation/index.md))
+- [x] Build it: `/develop design system & UI foundation` (warm editorial retheme per 0002)
+  - [x] Warm tokens and Fraunces display font (AC-1, AC-2, AC-4, AC-10)
+  - [x] Retheme existing primitives (AC-3, AC-5, AC-6, AC-7)
+  - [x] New primitives and depth: Card, Eyebrow, Divider, Badge, glow, showcase page (AC-11, AC-12)
+  - [x] Verification pass and `design.md` rewrite (AC-8, AC-9, AC-14)
+  - [x] Removal sweep and green gate (AC-13)
 - [ ] Verify it: `/check verify design system & UI foundation`
 
 ## First impression

@@ -35,7 +35,7 @@ export function Heading({ level, as, tone = "default", className, ...props }: He
   return (
     <Component
       className={cn(
-        "font-semibold tracking-heading text-balance",
+        "font-display font-semibold text-balance",
         levelClass[level],
         toneClass[tone],
         className,
