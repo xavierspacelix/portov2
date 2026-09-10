@@ -13,7 +13,7 @@ _These are recommendations to keep your build orderly, not requirements. Skip an
 | --- | ----------------------------- | ---------------- | ---------------- |
 | A   | Next.js scaffold              | Foundation       | existing         |
 | 1   | Coding standards & tooling    | Foundation       | done             |
-| 2   | Design system & UI foundation | Foundation       | in-progress      |
+| 2   | Design system & UI foundation | Foundation       | done             |
 | 3   | Home & hero                   | First impression | planned          |
 | 4   | Projects & case studies       | Proof            | needs a decision |
 | 5   | About & experience            | Trust            | planned          |
@@ -35,7 +35,7 @@ Capture conventions, then install lint and format checks so every later feature 
 - [x] Capture conventions + tooling: `/audit`
 - [x] Install the tooling: `/develop tooling`
 
-### 2. Design system & UI foundation · in-progress
+### 2. Design system & UI foundation · done
 
 The visual language: color tokens (light and dark), type, spacing, and base components, so every section feels cohesive and premium. This sets the bar for the whole site. code in `components/ui/`, `lib/utils.ts`, `app/globals.css`, `app/providers.tsx`, `design.md`
 **Done when:** `design.md` covers color, type, spacing, and components; base components handle focus and keyboard; both palettes are defined.
