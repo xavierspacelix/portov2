@@ -37,15 +37,15 @@ Capture conventions, then install lint and format checks so every later feature 
 
 ### 2. Design system & UI foundation · in-progress
 
-The visual language: color tokens (light and dark), type, spacing, and base components, so every section feels cohesive and premium. This sets the bar for the whole site.
+The visual language: color tokens (light and dark), type, spacing, and base components, so every section feels cohesive and premium. This sets the bar for the whole site. code in `components/ui/`, `lib/utils.ts`, `app/globals.css`, `app/providers.tsx`, `design.md`
 **Done when:** `design.md` covers color, type, spacing, and components; base components handle focus and keyboard; both palettes are defined.
 
 - [x] Design it (spec): `/architect design system & UI foundation` → [0001](../specs/0001-design-system-ui-foundation/index.md)
-- [ ] Build it: `/develop design system & UI foundation`
-  - [ ] Tokens, theme provider, and `cn()` utility (AC-2, AC-10)
-  - [ ] Layout and typography primitives (AC-4, AC-5)
-  - [ ] Button, Link, and ThemeToggle (AC-3, AC-6, AC-7)
-  - [ ] Contrast and reduced motion pass, plus `design.md` (AC-1, AC-8, AC-9)
+- [x] Build it: `/develop design system & UI foundation`
+  - [x] Tokens, theme provider, and `cn()` utility (AC-2, AC-10)
+  - [x] Layout and typography primitives (AC-4, AC-5)
+  - [x] Button, Link, and ThemeToggle (AC-3, AC-6, AC-7)
+  - [x] Contrast and reduced motion pass, plus `design.md` (AC-1, AC-8, AC-9)
 - [ ] Verify it: `/check verify design system & UI foundation`
 
 ## First impression
